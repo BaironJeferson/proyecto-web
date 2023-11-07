@@ -77,7 +77,7 @@
     height: 380px;
 }
 .txt-c{
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 250px;
     font-family: proxima-nova, sans-serif;
     text-align: justify;
@@ -239,7 +239,6 @@
 .arrow-link:hover {
     color: #D95E39;
 }
-
 /* SECCION-SLIDER */
 .d-item{
     height: 600px;
@@ -254,6 +253,9 @@
     font-weight: 700;
     color: white;
     text-shadow: 0 3px 0 black;
+    text-decoration: underline var(--color-amarillo-general);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
 }
 .s-texto{
     font-family: proxima-nova, sans-serif;
@@ -275,7 +277,7 @@
     margin-top: 1.5rem;
     margin-right: 6rem;
 }
-.txt-c{
+.txt-c2{
     font-family: proxima-nova, sans-serif;
     text-align: justify;
     margin-right: 100px;
@@ -316,37 +318,79 @@
     background-size: cover;
     margin-right: 0.5rem;
 }
-
 /* PÁGINA RAZAS */
-.razas-main{
+.titulo-razas{
+    margin-top: 7rem;
+}
+.razas-t{
+    font-size: 50px;
+    text-decoration: underline var(--color-amarillo-general);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: 1px;
+}
+.razas-t2{
+    font-size: 40px;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: 1px;
+}
+.img-razas{
+    margin-top: 3rem;
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 0.1rem 0.5rem 0.1rem;
+}
+.razas-click{
     margin-top: 10rem;
 }
-.razas-main img{
-    height: 400px;
-    width: auto;
-    box-shadow: 0.1rem 0.1rem 1rem 0;
-    border-top: 8px solid var(--color-amarillo-general);
+.razas-click a:hover{
+    border: solid var(--color-amarillo-general);
+    border-radius: 0.5rem;
 }
-.espacio-r{
-    margin-left: 50px;
+.razas-click a{
+    text-decoration: none;
 }
-.fondo-r{
-        background-image:
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.93)),
-                url('../img/fondo-patas.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-.razas-main h1 {
-    font-size: 50px;
+.razas-click h5{
     text-decoration: underline var(--color-amarillo-general);
     text-decoration-thickness: 2px;
     text-underline-offset: 1px;
     font-family: proxima-nova, sans-serif;
 }
+.razas-main{
+    margin-top: 10rem;
+}
+.img-r{
+    height: 380px;
+    width: auto;
+    box-shadow: 0.1rem 0.1rem 0.6rem 0;
+    border-top: 8px solid var(--color-amarillo-general);
+}
+.espacio-r{
+    margin-left: 50px;
+}
+.espacio-l{
+    margin-right: 25px;
+}
+.fondo-r{
+        background-image:
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.93)),
+                url('../img/fondo-patas.jpg');
+        background-repeat: repeat;
+}
+.razas-main h1 {
+    font-size: 50px;
+    text-decoration: underline var(--color-amarillo-general);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 2px;
+    font-family: proxima-nova, sans-serif;
+}
 .razas-main h2{
     font-size: 30px;
     font-family: proxima-nova, sans-serif;
+    text-shadow: 1px 1px 1px black;
+
 }
 .razas-main p{
     font-size: 19px;
@@ -354,4 +398,44 @@
     color: black;
     text-align: justify;
     word-spacing: 3px;
+}
+/*PÁGINA DATOS */
+.titulo-datos{
+    background-image:
+            linear-gradient(to bottom, rgba(107, 107, 107, 0.60), rgba(107, 107, 107, 0.60)),
+            url('../img/gatos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 40rem;
+}
+/* TITULO BIENVENIDA */
+.bienvenida-d{
+    margin-top: 150px;
+    color: white;
+    font-size: 100px;
+    text-decoration: underline var(--color-amarillo-general);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    font-family: proxima-nova, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+.bienvenida-d2{
+    color: white;
+    font-size: 50px;
+    font-family: proxima-nova, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+/* DATOS */
+.datos-main{
+    margin-top: 10rem;
+}
+/* TEXTO CARDS */
+.txt-datos{
+    font-size: 17px;
+    font-family: proxima-nova, sans-serif;
+}
+/* IMÁGEN CARDS */
+.datos-main img{
+    height: 300px;
 }

@@ -1,0 +1,28 @@
+@media (max-width: 1400px){
+/* INDEX */
+.presentacion p{
+    margin-right: 5rem;
+}
+.presentacion img{
+    margin-left: 5rem;
+}
+.txt-c{
+    font-size: 21px;
+}
+/* RAZAS */
+.razas-main p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
