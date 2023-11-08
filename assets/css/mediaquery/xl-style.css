@@ -1,0 +1,46 @@
+@media (max-width: 1200px){
+/* INICIO */
+.titulo-p{
+    font-size: 45px;
+    margin-top: 10rem;
+}
+.texto-p{
+    font-size: 19px;
+}
+.cuidados img{
+    height: 250px;
+    margin-left: 90px;
+}
+.txt-c{
+    margin-right: 1rem;
+}
+/* RAZAS */
+.razas-main img{
+    height: 330px;
+}
+.razas-main p{
+    font-size: 17px;
+}
+/* CUIDADOS */
+.cuidados-main hr{
+        width: 350px;
+    }
+.txt-c2{
+        font-size: 16px;
+    }
+.txt-derecha{
+        font-size: 15px;
+    }
+
+.img-cuidados{
+    height: 175px;
+}
+.cuidados-main h1{
+    font-size: 30px;
+}
+/* DATOS */
+.bienvenida-d2{
+    font-size: 42px;
+}
+}
+

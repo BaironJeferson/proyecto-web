@@ -17,6 +17,7 @@
     padding: 20px 0;
     color: black;
 }
+/* HOVER MENÚ */
 .navbar-nav > li > a:hover{
     text-decoration: underline var(--color-amarillo-general);
     text-decoration-thickness: 2px;
@@ -24,6 +25,7 @@
 }
 /* PRESENTACIÓN */
 .presentacion{
+    margin-top: 1rem;
 }
 /* PRESENTACIÓN-IMG */
 .imagen-p{
@@ -69,13 +71,16 @@
     box-shadow: 0 0.10rem 1rem 0.10rem;
     border-radius: 1rem;
 }
+/* SIN COLOR CUIDADOS */
 .no-color{
     height: 380px;
 }
+/* COLOR GRIS CUIDADOS */
 .color1{
     background-color: var(--color-general);
     height: 380px;
 }
+/* TEXTO CUIDADOS */
 .txt-c{
     font-size: 20px;
     margin-right: 250px;
@@ -97,6 +102,7 @@
     font-size: 100px;
     text-shadow: 1px 3px 4px black;
 }
+/* SECCION RAZA TITULO H2 */
 .t2-razas{
     color: white;
     font-size: 50px;
@@ -143,29 +149,23 @@
     font-size: 70px;
     text-shadow: 1px 3px 4px black;
 }
-.d2-datos{
-    font-family: proxima-nova, sans-serif;
-    color: black;
-    font-size: 30px;
-    text-shadow: 1px 3px 4px black;
-
-}
 /* SECCIÓN-DATOS-ESPACIO */
 .espacio-d{
     padding-top: 2rem;
 }
-/* SECCION FINAL */
+/* SECCION FOOTER */
 .final{
     background-color:  var(--color-general);
     box-shadow: 0 0 0.50rem 0;
     margin-top: 10rem;
 }
-/* FINAL-ICONOS  */
+/* FOOTER-ICONOS  */
 .f-icons img{
     height: 35px;
     width: auto;
     margin-top: 1rem;
 }
+/* FOOTER TITULOS */
 .final h1{
     font-weight: 400;
     font-size: 30px;
@@ -173,6 +173,7 @@
     margin-top: 2rem;
     text-align: center;
 }
+/* FOOTER LINEA AMARILLA TITULOS */
 .final h1:after{
     content: "";
     display: block;
@@ -185,6 +186,7 @@
     display: flex;
     align-items: center;
 }
+/* FOOTER ESPACIOS */
 .txt-foo{
     margin-left: 5px;
 }
@@ -243,11 +245,13 @@
 .d-item{
     height: 600px;
 }
+/* IMAGEN SLIDER */
 .d-img{
     height: 100%;
     object-fit: cover;
     filter: brightness(0.6);
 }
+/* TITULO SLIDER */
 .s-title{
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
@@ -257,6 +261,7 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 3px;
 }
+/* PARRAFO SLIDER */
 .s-texto{
     font-family: proxima-nova, sans-serif;
     color: white;
@@ -267,22 +272,26 @@
 .cuidados-main{
     margin-top: 10rem;
 }
+/* TITULO CUIDADOS */
 .cuidados-main h1{
     font-family: proxima-nova, sans-serif;
     font-size: 40px;
 }
+/* CUIDADOS TITULO ITEMS */
 .cuidados-main h2{
     font-family: proxima-nova, sans-serif;
     font-size: 20px;
     margin-top: 1.5rem;
     margin-right: 6rem;
 }
+/* ITEMS */
 .txt-c2{
     font-family: proxima-nova, sans-serif;
     text-align: justify;
     margin-right: 100px;
     font-size: 17px;
 }
+/* LINEA CUIDADOS */
 .cuidados-main hr{
     background-color: var(--color-amarillo-general);
     height: 4px;
@@ -291,13 +300,14 @@
     width: 600px;
     border-radius: 1rem;
 }
-
+/* IMAGENES CUIDADOS */
 .img-cuidados{
     width: 290px;
     height: auto;
     border-radius: 0.1rem;
     box-shadow: 0 0.1rem 0.5rem 0;
 }
+/* LISTA CSS */
 .imagen-texto{
     display: flex;
 }
@@ -307,6 +317,7 @@
 .custom-list {
     list-style: none;
 }
+/* ICONOS LISTA */
 .custom-list li::before {
     content: "";
     display: inline-block;
@@ -322,6 +333,7 @@
 .titulo-razas{
     margin-top: 7rem;
 }
+/* TITULO RAZAS */
 .razas-t{
     font-size: 50px;
     text-decoration: underline var(--color-amarillo-general);
@@ -330,11 +342,13 @@
     font-family: proxima-nova, sans-serif;
     letter-spacing: 1px;
 }
+/* TITULO DEBAJO RAZAS */
 .razas-t2{
     font-size: 40px;
     font-family: proxima-nova, sans-serif;
     letter-spacing: 1px;
 }
+/* CIRCULOS IMAGENES RAZAS */
 .img-razas{
     margin-top: 3rem;
     border-radius: 50%;
@@ -342,6 +356,7 @@
     height: auto;
     box-shadow: 0 0.1rem 0.5rem 0.1rem;
 }
+/* CARDS */
 .razas-click{
     margin-top: 10rem;
 }
@@ -358,27 +373,32 @@
     text-underline-offset: 1px;
     font-family: proxima-nova, sans-serif;
 }
+/* GATOS RAZAS */
 .razas-main{
     margin-top: 10rem;
 }
+/* IMAGENES DE GATOS */
 .img-r{
     height: 380px;
     width: auto;
     box-shadow: 0.1rem 0.1rem 0.6rem 0;
     border-top: 8px solid var(--color-amarillo-general);
 }
+/* CORRECCIONES DE ESPACIO */
 .espacio-r{
     margin-left: 50px;
 }
 .espacio-l{
     margin-right: 25px;
 }
+/* FONDO PAGINA */
 .fondo-r{
         background-image:
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.93)),
                 url('../img/fondo-patas.jpg');
         background-repeat: repeat;
 }
+/* NOMBRE GATOS */
 .razas-main h1 {
     font-size: 50px;
     text-decoration: underline var(--color-amarillo-general);
@@ -386,12 +406,14 @@
     text-underline-offset: 2px;
     font-family: proxima-nova, sans-serif;
 }
+/* ORIGEN Y CUIDADOS */
 .razas-main h2{
     font-size: 30px;
     font-family: proxima-nova, sans-serif;
     text-shadow: 1px 1px 1px black;
 
 }
+/* TEXTO GATOS */
 .razas-main p{
     font-size: 19px;
     font-family: proxima-nova, sans-serif;
@@ -420,6 +442,7 @@
     font-family: proxima-nova, sans-serif;
     text-shadow: 1px 1px 2px black;
 }
+/* TITULO DEBAJO BIENVENIDA */
 .bienvenida-d2{
     color: white;
     font-size: 50px;

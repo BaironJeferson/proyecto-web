@@ -1,0 +1,67 @@
+@media (max-width: 992px){
+/* INICIO */
+    .imagen-p{
+        margin-top: 9rem;
+        margin-right: 5rem;
+    }
+    .titulo-p{
+        margin-top: 3rem;
+        margin-left: 6rem;
+        font-size: 3.1rem;
+        text-decoration-thickness: 2px;
+    }
+    .texto-p{
+        margin-top: 1rem;
+        margin-left: 3rem;
+        line-height: 2.1rem;
+        text-align: center;
+    }
+    .cuidados img{
+        height: 250px;
+        margin-left: 60px;
+    }
+    .txt-c{
+        margin-right: 2rem;
+    }
+    .d-datos{
+        font-size: 60px;
+    }
+/* RAZAS */
+.img-razas{
+    height: 400px;
+    width: auto;
+}
+.espacio-r{
+    margin: 0;
+}
+.espacio-l{
+    margin: 0;
+}
+.razas-main img{
+    height: 300px;
+    display: flex;
+}
+.razas-main p{
+    font-size: 17px;
+}
+/* CUIDADOS */
+    .cuidados-main hr{
+        width: 450px;
+    }
+    .txt-c2{
+        font-size: 18px;
+    }
+    .txt-derecha{
+        font-size: 15px;
+    }
+    .img-cuidados{
+        height: 175px;
+    }
+    .cuidados-main h1{
+        font-size: 30px;
+    }
+    /* DATOS */
+    .card{
+        width: 1rem;
+    }
+}
